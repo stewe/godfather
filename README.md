@@ -121,7 +121,7 @@ services:
 
 then use it in the controller:
 ```php
-$product = new /Product/ShoeProduct();
+$product = new \Product\ShoeProduct();
 $manager = $container->get('godfather')->getStrategy('manager', $product);
 $manager->...
 ```
